@@ -3,9 +3,9 @@ a = int(input("Enter First Number: "))
 b = int(input("Enter second Number: "))
 operador = input ("Enter a operator: ")
 
-type(a)
-type(b)
-type(operador)
+print(type(a))
+print(type(b))
+print(type(operador))
 
 # realizar una suma de 2 numeros
 def suma():
@@ -53,4 +53,6 @@ elif operador == "//":
     divisionFloor()
 elif operador == "**":
     expo()
+elif operador == "%":
+    mod()
 else: print ("invalid operator")
