@@ -7,7 +7,7 @@ def LetterCount(str):
         if i in lDicc:
             lDicc[i] +=1
         else:
-            lcDicc[i]= 1
+            lDicc[i]= 1
     print (lDicc)
 
 word = input("Enter a Word: ")
